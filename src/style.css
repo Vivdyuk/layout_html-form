@@ -1,15 +1,24 @@
 fieldset {
+  
+  display: block;
   margin-bottom: 20px;
 }
 
-label {
-  display: block;
+fieldset:last-child {
+  margin-bottom: 0;
 }
 
-input {
-  margin-bottom: 10px;
+.form-element {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.form-element:last-child {
+  padding-bottom: 0;
 }
 
 .annoying {
   display: inline;
 }
+/* fix those fckin' pixels 
+anything else is OK */
