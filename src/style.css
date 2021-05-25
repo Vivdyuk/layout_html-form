@@ -1,10 +1,10 @@
-fieldset {
+.form-block {
   
   display: block;
   margin-bottom: 20px;
 }
 
-fieldset:last-child {
+.form-block:last-child {
   margin-bottom: 0;
 }
 
@@ -20,5 +20,3 @@ fieldset:last-child {
 .annoying {
   display: inline;
 }
-/* fix those fckin' pixels 
-anything else is OK */
